@@ -1,0 +1,392 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html, body{
+    height: 100%;
+    overflow-x: hidden;
+}
+body{
+    font-family: Helvetica, sans-serif;
+    background: url(imagens/capa.png),
+                url(imagens/ruido.png),
+                -o-linear-gradient(40deg, #ff4169, #7c26f8);
+    background: url(imagens/capa.png),
+                url(imagens/ruido.png),
+                linear-gradient(50deg, #ff4169, #7c26f8);
+    background-attachment: fixed;
+}
+/* Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+    #home .capa h1{
+        font-size: 112px;
+        letter-spacing: -10px !important;
+    }
+    #home .capa a{
+        font-size: 1.1em !important;
+    }
+    a.carousel-control-prev,
+    a.carousel-control-next {
+        margin: 128px 0px 0px 0px !important;
+    }
+}
+/* Large devices (desktops, 992px and up)*/
+@media (max-width: 1199.98px) {
+    #home .capa h1{
+        font-size: 96px;
+        letter-spacing: -7px !important;
+    }
+    a.carousel-control-prev,
+    a.carousel-control-next {
+        margin: 109px 0px 0px 0px !important;
+    }
+    #recursos .rotacionar{
+        margin-top: 20px !important;
+        width: 630px;
+    }
+    #recursos .rotacionar img{
+        width: 290px !important;
+        height: 610px !important;
+    }
+}
+/* Medium devices (tablets, 768px and up)*/
+@media (max-width: 991.98px) {
+    #home .capa h1{
+        font-size: 70px;
+        letter-spacing: -6px !important;
+    }
+    a.carousel-control-prev,
+    a.carousel-control-next {
+        margin: 70px 0px 0px 0px !important;
+    }
+    #recursos .recursos-text{
+        margin: 50px auto 10px auto !important;
+    }
+    #recursos .rotacionar{
+        margin-left: 40px;
+        margin-top: 60px !important;
+    }
+    footer h4{
+        font-size: 0.7em !important;
+    }
+    footer .navbar-nav a{
+        font-size: 0.8em !important;
+    }
+}
+/* Small devices (landscape phones, 576px and up)*/
+@media (max-width: 767.98px) {
+    .nav1 .navbar-nav .nav-link{
+        padding: 10px 15px;
+        margin: 2px 0px;
+        -webkit-transition: 0.3s;
+        -o-transition: 0.3s;
+        transition: 0.3s;
+    }
+    .nav1 .navbar-nav .nav-link:hover{
+        background: rgba(0, 0, 0, 0.123);
+        padding: 10px 30px;
+    }
+    #home .capa h1{
+        font-size: 64px;
+        letter-spacing: -4px !important;
+    }
+    #home .capa a{
+        font-size: 0.9em !important;
+    }
+    #home .capa a.btn2{
+        margin-top: 15px;
+    }
+    #recursos .recursos-text{
+        margin: 40px auto 20px auto !important;
+    }
+    #recursos .rotacionar img{
+        display: none !important;
+    }
+    footer{
+        padding: 30px 0px 20px 0px !important;
+    }
+    footer .container .row .container{
+        display: none;
+    }
+    footer .rodape-social{
+        margin-top: 20px;
+    }
+}
+/* Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    #home .capa h1{
+        font-size: 48px;
+        letter-spacing: 2px;
+    }
+    #home .capa a{
+        font-size: 0.8em !important;
+    }
+}
+/* personalizado | celulares */
+@media (max-width: 412px) {
+    .nav1 .navbar-nav .nav-link{
+        -webkit-transition: 0ms;
+        -o-transition: 0ms;
+        transition: 0ms;
+    }
+    .nav1 .navbar-nav .nav-link:hover{
+        background: rgba(0, 0, 0, 0.123);
+        padding: 10px 15px;
+    }
+    #serviços .img-fluid{
+        display: none;
+    }
+    #recursos .rotacionar img{
+        display: none !important;
+    }
+}
+/*******************************************************
+navegação*/
+nav.nav1{
+    padding: 15px;
+    background: rgba(0, 0, 0, 0.781);
+}
+.nav1 a img{
+    margin: 0px;
+    height: 43px;
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+.nav1 a img:hover{
+    width: 150px;
+    height: 51px;
+    margin: -4px;
+}
+.nav1 .navbar-toggler {
+    border-color: #ffffff54;
+}
+.nav1 .navbar-nav .nav-link{
+    color: #fff;
+}
+.nav1 .navbar-nav .nav-link:hover{
+    color: #9bf0e1;
+}
+.nav1 .navbar-nav .nav-link:active{
+    color: #000000;
+    -webkit-transition: 0ms;
+    -o-transition: 0ms;
+    transition: 0ms;
+}
+.divisor{
+    width: 1px;
+    background: #fff;
+    margin: 12px 15px;
+}
+/*******************************************************
+conteudo*/
+#home{
+    height: 100%;
+}
+#home .capa{
+    text-align: center;
+}
+#home .capa h1{
+    color: #fff;
+    font-weight: bold;
+    margin-top: 50px auto;
+    margin-bottom: 50px;
+    letter-spacing: -10px;
+    cursor: default;
+}
+#home .capa a{
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 1em;
+    margin: 0px 10px;
+    padding: 10px 15px;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+}
+#home .capa a:active{
+    opacity: 0.8;
+}
+#home .capa a.btn1{
+    background: #7c26f8;
+    border: 2px solid #7c26f8;
+}
+#home .capa a.btn1:hover{
+    background: #692ebd;
+    border: 2px solid #692ebd;
+}
+#home .capa a.btn2{
+    background: none;
+    border: 2px solid #ffffff;
+}
+#home .capa a.btn2:hover{
+    background: #fff;
+    color: #000000;
+}
+#carousel1{
+    text-align: center;
+}
+a.carousel-control-prev,
+a.carousel-control-next {
+    display: inline-block;
+    width: 20px !important;
+    height: 20px !important;
+}
+#serviços{
+    background: #fff;
+    padding: 20px;
+    margin-top: 30px;
+    -webkit-box-shadow: 0px 0px 20px 20px #fff;
+            box-shadow: 0px 0px 20px 20px #fff;
+}
+#serviços .img-fluid{
+    margin: 15px 0px;
+}
+#serviços .serviços-text{
+    margin: 15px 0px;
+}
+#serviços h2,h3{
+    color: #7c25f8;
+    font-weight: bold;
+}
+#serviços .serviços-text h2{
+    font-size: 3em;
+    letter-spacing: -3px;
+    margin-bottom: 20px;
+}
+#serviços .serviços-text h3{
+    font-size: 2em;
+    letter-spacing: -2px;
+}
+#serviços .serviços-text p{
+    text-align: justify;
+}
+#recursos{
+    padding: 20px 20px 10px 20px;
+}
+#recursos .recursos-text{
+    margin: 50px auto;
+}
+#recursos h2,h3{
+    font-weight: bold;
+}
+#recursos h2{
+    font-size: 3em;
+    color: #fff;
+    letter-spacing: -4px;
+}
+#recursos h3{
+    font-size: 2em;
+    color: #9bf0e1;
+    letter-spacing: -2px;
+}
+#recursos p{
+    color: #fff;
+}
+#recursos .rotacionar{
+    width: 640px;
+    margin-left: 60px;
+    margin-top: -40px;
+    -webkit-transform: rotate(30deg);
+        -ms-transform: rotate(30deg);
+            transform: rotate(30deg);
+}
+#recursos .rotacionar img{
+    display: inline-block;
+    margin: 0 5px;
+    width: 310px;
+    height: 650px;
+}
+footer{
+    background: #000;
+    position: relative;  
+    padding: 50px 20px 30px 20px;
+}
+footer .rodape-logo{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;    
+}
+footer .rodape-logo img{
+    display: block;
+    cursor: pointer;
+}
+footer .rodape-logo img:hover{
+    width: 150px;
+    height: 51px;
+    margin: -4px;
+}
+footer .rodape-logo img:active{
+    width: 142px;
+}
+footer ul{
+    list-style: none;
+}
+footer h4{
+    color: #919496;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    font-weight: bold;
+    cursor: default;
+}
+footer h4#link{
+    white-space: nowrap;
+}
+footer .navbar-nav a{
+    font-size: 0.9em;
+    color: #fff;
+    text-decoration: none;
+}
+footer .navbar-nav a:hover{
+    color: #9bf0e1;
+}
+footer .navbar-nav a:active{
+    text-decoration: underline;
+}
+footer .rodape-social ul{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 100%;
+}
+footer .rodape-social li{
+    display: inline-block;
+    margin: 0;
+}
+footer .rodape-social img{
+    width: 45px;
+    height: 45px;
+    margin: 0px 7px;
+}
+footer .rodape-social img:hover{
+    margin: -3px 4px 0px 4px;
+    width: 51px;
+    height: 51px;
+}
+footer .rodape-social img:active{
+    width: 47px;
+    height: 47px;
+    margin: -1px 6px 0px 6px;
+    opacity: 0.7;
+    -webkit-transition: 0ms;
+    -o-transition: 0ms;
+    transition: 0ms;
+}
