@@ -1,0 +1,1056 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@-webkit-keyframes aparecerCoracaoJogo {
+    0%{ 
+        opacity: 0;
+        margin-top: -40px;
+        margin-bottom: 40px;
+    }
+    25%{  
+        opacity: 0.8;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{ 
+        opacity: 1; 
+    }
+}
+@keyframes aparecerCoracaoJogo {
+    0%{ 
+        opacity: 0;
+        margin-top: -40px;
+        margin-bottom: 40px;
+    }
+    25%{  
+        opacity: 0.8;
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{ 
+        opacity: 1; 
+    }
+}
+@-webkit-keyframes tremerCoracaoVazioJogo {
+    0%{ 
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    25%{  
+        margin-top: -2px;
+        margin-bottom: 2px;
+    }
+    75%{
+        margin-top: 2px;
+        margin-bottom: -2px;
+    }
+    100%{  
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+@keyframes tremerCoracaoVazioJogo {
+    0%{ 
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    25%{  
+        margin-top: -2px;
+        margin-bottom: 2px;
+    }
+    75%{
+        margin-top: 2px;
+        margin-bottom: -2px;
+    }
+    100%{  
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+}
+@-webkit-keyframes aparecerInformarcoesJogo {
+    0%{ 
+        opacity: 0;
+        margin-top: 400px;
+    }
+    25%{  
+        opacity: 0.1;
+    }
+    50%{
+        margin-top: 0px;
+    }
+    75%{
+        opacity: 0.8;
+    }
+    100%{  
+        opacity: 1;
+    }
+}
+@keyframes aparecerInformarcoesJogo {
+    0%{ 
+        opacity: 0;
+        margin-top: 400px;
+    }
+    25%{  
+        opacity: 0.1;
+    }
+    50%{
+        margin-top: 0px;
+    }
+    75%{
+        opacity: 0.8;
+    }
+    100%{  
+        opacity: 1;
+    }
+}
+@-webkit-keyframes aparecerBotoesJogo {
+    0%{ 
+        opacity: 0;
+        margin-right: -400px;
+    }
+    25%{  
+        opacity: 0.1;
+    }
+    50%{
+        margin-right: 0px;
+    }
+    75%{
+        opacity: 0.8;
+    }
+    100%{  
+        opacity: 1;
+    }
+}
+@keyframes aparecerBotoesJogo {
+    0%{ 
+        opacity: 0;
+        margin-right: -400px;
+    }
+    25%{  
+        opacity: 0.1;
+    }
+    50%{
+        margin-right: 0px;
+    }
+    75%{
+        opacity: 0.8;
+    }
+    100%{  
+        opacity: 1;
+    }
+}
+@-webkit-keyframes desvanecerPainelJogo {
+    0%{ 
+        width: 40%;
+        opacity: 0.8;
+    }
+    25%{  
+        opacity: 0.5;
+    }
+    40%{
+        opacity: 0.2;
+    }
+    100%{  
+        width: 0%;
+        opacity: 0;
+    }
+}
+@keyframes desvanecerPainelJogo {
+    0%{ 
+        width: 40%;
+        opacity: 0.8;
+    }
+    25%{  
+        opacity: 0.5;
+    }
+    40%{
+        opacity: 0.2;
+    }
+    100%{  
+        width: 0%;
+        opacity: 0;
+    }
+}
+@-webkit-keyframes desvanecerDivPainelJogo {
+    0%{ 
+        opacity: 0.8;
+    }
+    25%{  
+        opacity: 0.5;
+    }
+    40%{
+        opacity: 0.1;
+    }
+    70%{
+        width: 0%;
+        opacity: 0;
+    }
+    100%{  
+        width: 0%;
+        opacity: 0;
+    }
+}
+@keyframes desvanecerDivPainelJogo {
+    0%{ 
+        opacity: 0.8;
+    }
+    25%{  
+        opacity: 0.5;
+    }
+    40%{
+        opacity: 0.1;
+    }
+    70%{
+        width: 0%;
+        opacity: 0;
+    }
+    100%{  
+        width: 0%;
+        opacity: 0;
+    }
+}
+@-webkit-keyframes aparecerImagemGameOver {
+    0%{
+        width: 500px;
+    }
+    25%{  
+    }
+    50%{
+        margin-top: -60px;
+    }
+    100%{ 
+        margin-top: -50px;
+        margin-bottom: 70px;
+        width: 400px;
+    }
+}
+@keyframes aparecerImagemGameOver {
+    0%{
+        width: 500px;
+    }
+    25%{  
+    }
+    50%{
+        margin-top: -60px;
+    }
+    100%{ 
+        margin-top: -50px;
+        margin-bottom: 70px;
+        width: 400px;
+    }
+}
+@-webkit-keyframes aparecerBotoesGameOver {
+    0%{
+        opacity: 0;
+    }
+    25%{  
+    }
+    40%{
+        opacity: 0.3;
+    }
+    100%{ 
+        opacity: 1;
+    }
+}
+@keyframes aparecerBotoesGameOver {
+    0%{
+        opacity: 0;
+    }
+    25%{  
+    }
+    40%{
+        opacity: 0.3;
+    }
+    100%{ 
+        opacity: 1;
+    }
+}
+@-webkit-keyframes desfocarCenarioMenu {
+    0%{ 
+        -webkit-backdrop-filter: blur(0px) grayscale(0%); 
+                backdrop-filter: blur(0px) grayscale(0%);
+    }
+    100%{  
+        -webkit-backdrop-filter: blur(10px) grayscale(20%);  
+                backdrop-filter: blur(10px) grayscale(20%);
+    }
+}
+@keyframes desfocarCenarioMenu {
+    0%{ 
+        -webkit-backdrop-filter: blur(0px) grayscale(0%); 
+                backdrop-filter: blur(0px) grayscale(0%);
+    }
+    100%{  
+        -webkit-backdrop-filter: blur(10px) grayscale(20%);  
+                backdrop-filter: blur(10px) grayscale(20%);
+    }
+}
+@-webkit-keyframes moverLogoMenu {
+    0%{ 
+        opacity: 0;
+        margin-left: 750px;
+    }
+    25%{  
+        margin-left: 750px;
+    }
+    50%{
+        opacity: 1;
+    }
+    75%{
+    }
+    100%{  
+        opacity: 1;
+        margin-left: 200px;
+    }
+}
+@keyframes moverLogoMenu {
+    0%{ 
+        opacity: 0;
+        margin-left: 750px;
+    }
+    25%{  
+        margin-left: 750px;
+    }
+    50%{
+        opacity: 1;
+    }
+    75%{
+    }
+    100%{  
+        opacity: 1;
+        margin-left: 200px;
+    }
+}
+@-webkit-keyframes aparecerBotoesMenu {
+    0%{ 
+        opacity: 0;
+        margin-top: 750px;
+    }
+    25%{  
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    75%{
+        opacity: 1;
+    }
+    100%{  
+        opacity: 1;
+        margin: 10px auto;
+    }
+}
+@keyframes aparecerBotoesMenu {
+    0%{ 
+        opacity: 0;
+        margin-top: 750px;
+    }
+    25%{  
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    75%{
+        opacity: 1;
+    }
+    100%{  
+        opacity: 1;
+        margin: 10px auto;
+    }
+}
+
+/**********************************************************ESTILO************************************************************/
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body, html{
+    height: 100%;
+}
+body{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: url(imagens/bg.jpg) no-repeat center;
+    background-size: cover;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+    overflow: hidden;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    cursor: url(imagens/mata_mosca.png) 30 30, auto;
+}
+.body-menu{
+    -webkit-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s;
+    -webkit-animation: desfocarCenarioMenu 3s forwards ease-in;
+            animation: desfocarCenarioMenu 3s forwards ease-in;
+    cursor: default;
+}
+.body-configuracoes{
+    -webkit-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s;
+    -webkit-backdrop-filter: blur(7px) grayscale(40%);
+            backdrop-filter: blur(7px) grayscale(40%);
+    cursor: default;
+}
+.body-gameOver{
+    -webkit-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s;
+    -webkit-backdrop-filter: blur(10px) grayscale(70%);
+            backdrop-filter: blur(10px) grayscale(70%);
+    cursor: default;
+}
+.body-vitoria{
+    -webkit-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s;
+    -webkit-backdrop-filter: blur(7px) grayscale(0%);
+            backdrop-filter: blur(7px) grayscale(0%);
+    cursor: default;
+}
+.dnone{
+    display: none;
+}
+
+/**********************************************************MOBILE************************************************************/
+
+
+/* Estilo da tela de bloqueio */
+#block-screen {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.966); /* Fundo escuro */
+    z-index: 1000; /* Garante que fique acima de tudo */
+}
+
+.block-message {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    background-color: #461414;
+    border-radius: 10px;
+    min-width: 300px;
+    max-width: 800px;
+    margin: 0 30px;
+}
+
+.block-message h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.block-message p {
+    font-size: 18px;
+}
+
+/* Esconde a tela de bloqueio por padrão */
+#block-screen.dnone {
+    display: none;
+}
+
+
+/**********************************************************MOSCA************************************************************/
+
+
+img.mosca1{
+    width: 50px;
+    height: 50px;
+}
+img.mosca2{
+    width: 70px;
+    height: 70px;
+}
+img.mosca3{
+    width: 90px;
+    height: 90px;
+}
+img.mosca4{
+    width: 95px;
+    height: 95px;
+    -webkit-filter: hue-rotate(180deg) saturate(3);
+            filter: hue-rotate(180deg) saturate(3);
+}
+img.mosca5{
+    width: 110px;
+    height: 110px;
+    -webkit-filter: hue-rotate(120deg) saturate(7);
+            filter: hue-rotate(120deg) saturate(7);
+}
+img.mosca6{
+    width: 150px;
+    height: 150px;
+    -webkit-filter: hue-rotate(270deg) saturate(20) drop-shadow(0px 0px 10px #16ff0e);
+            filter: hue-rotate(270deg) saturate(20) drop-shadow(0px 0px 10px #16ff0e);
+}
+img.ladoA{
+    -webkit-transform: scaleX(1);
+        -ms-transform: scaleX(1);
+            transform: scaleX(1);
+}
+img.ladoB{
+    -webkit-transform: scaleX(-1);
+        -ms-transform: scaleX(-1);
+            transform: scaleX(-1);
+}
+
+
+/**********************************************************PAINEL************************************************************/
+
+
+div.home{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: end;
+    width: calc(100% - 30px);
+    height: calc(100% - 30px);
+    border: 15px solid #00000075;
+}
+div#painel{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: #000000b4;
+    width: 40%;
+    height: 130px;
+    margin: 10px;
+    border: none;
+    border-radius: 20px;
+}
+div#painel.desvanecerPainel{
+    -webkit-animation: desvanecerPainelJogo 1.5s forwards;
+            animation: desvanecerPainelJogo 1.5s forwards;
+}
+div#painel div.desvanecerDivPainelJogo{
+    -webkit-animation: desvanecerDivPainelJogo 1s forwards;
+            animation: desvanecerDivPainelJogo 1s forwards;
+}
+div#painel .informacoes{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 10px;
+    width: 30%;
+    height: 120px;
+    margin: 5px 0px;
+    -webkit-animation: aparecerInformarcoesJogo 3s forwards;
+            animation: aparecerInformarcoesJogo 3s forwards;
+}
+div#painel .informacoes div{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: start;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 5px;
+    width: 100%;
+    padding: 0 20%;
+}
+div#painel .informacoes div svg{
+    width: 35px;
+    height: 40px;
+    fill: #fff;
+}
+div#painel .informacoes div p{
+    font-size: 25px;
+    color: #fff;
+}
+div#painel .informacoes div span{
+    font-size: 25px;
+    color: #fff;
+    margin-left: 5px;
+}
+div#painel .vidas{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 40%;
+    height: 120px;
+    margin: 5px 0px;
+    background-color: #ffffff00;
+}
+div#painel .vidas .coracao{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 6%;
+}
+div#painel .vidas .coracao img{
+    opacity: 0;
+    width: 23%;
+    -webkit-animation: aparecerCoracaoJogo 3s forwards;
+            animation: aparecerCoracaoJogo 3s forwards;
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s;
+}
+div#painel .vidas .coracao img#v2{
+    -webkit-animation-delay: 0.2s;
+            animation-delay: 0.2s;
+}
+div#painel .vidas .coracao img#v3{
+    -webkit-animation-delay: 0.4s;
+            animation-delay: 0.4s;
+}
+div#painel .vidas .coracao img.vazio{
+    opacity: 1;
+    -webkit-filter: invert(100%);
+            filter: invert(100%);
+    -webkit-animation: tremerCoracaoVazioJogo 0.5s infinite;
+            animation: tremerCoracaoVazioJogo 0.5s infinite;
+    -webkit-animation-delay: 0.1s;
+            animation-delay: 0.1s;
+}
+div#painel .vidas .coracao img#v2.vazio{
+    -webkit-animation-delay: 0.3s;
+            animation-delay: 0.3s;
+}
+div#painel .vidas .coracao img#v3.vazio{
+    -webkit-animation-delay: 0.5s;
+            animation-delay: 0.5s;
+}
+div#painel .botoes{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 30%;
+    height: 120px;
+    margin: 5px 0px;
+}
+div#painel .botoes button{
+    width: 70%;
+    height: 30px;
+    margin: 6px 20px;
+    background: #0000002c;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    font-size: 13px;
+    -webkit-backdrop-filter: blur(-10px);
+            backdrop-filter: blur(-10px);
+    /*cursor: pointer;*/
+    -webkit-animation: aparecerBotoesJogo 3s forwards;
+            animation: aparecerBotoesJogo 3s forwards;
+}
+div#painel .botoes button:hover{
+    background: #00000059;
+}
+div#painel .botoes button:active{
+    background: #0000008c;
+    font-size: 12px;
+}
+/**********************************************************MENU************************************************************/
+
+div.home-menu{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: calc(100% - 30px);
+    height: calc(100% - 30px);
+    border: 15px solid #00000075;
+}
+div.home-menu div{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 50%;
+    height: 100%;
+}
+div.home-menu div.imagem{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+div.home-menu div.imagem img{
+    opacity: 0;
+    margin-bottom: 120px;
+    margin-left: 200px;
+    -webkit-animation: moverLogoMenu 2s forwards;
+            animation: moverLogoMenu 2s forwards;
+}
+div.home-menu div.botoes{
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+}
+div.home-menu div.botoes button{
+    opacity: 0;
+    width: 300px;
+    height: 70px;
+    margin: 10px auto;
+    background: #0000002c;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    -webkit-backdrop-filter: blur(-10px);
+            backdrop-filter: blur(-10px);
+    /*cursor: pointer;*/
+    -webkit-animation: aparecerBotoesMenu 2s forwards;
+            animation: aparecerBotoesMenu 2s forwards;
+}
+div.home-menu div.botoes button:hover{
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+    border-radius: 12px;
+    background: #00000059;
+}
+div.home-menu div.botoes button:active{
+    -webkit-transition: 0ms;
+    -o-transition: 0ms;
+    transition: 0ms;
+    background: #0000008c;
+    font-size: 18px;
+}
+
+
+/**********************************************************CONFIGURACOES************************************************************/
+
+
+div.home-configuracoes{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: calc(100% - 30px);
+    height: calc(100% - 30px);
+    border: 15px solid #00000075;
+}
+div.home-configuracoes .botoes{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 60%;
+    height: 75%;
+    background: #00000093;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 20px;
+}
+div.home-configuracoes .botoes div{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    height: 35%;
+}
+div.home-configuracoes .botoes div .label{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: start;
+    width: 70%;
+}
+div.home-configuracoes .botoes div .label label{
+    display: block;
+    font-size: 25px;
+    color: #fff;
+    margin-left: 10px;
+}
+div.home-configuracoes .botoes div input{
+    display: block;
+    width: 70%;
+    height: 10px;
+    margin: 15px 0px 10px 0px;
+    background: #000000bd;
+    border-radius: 30px;
+}
+div.home-configuracoes .botoes div span, p{
+    font-size: 17px;
+    text-transform: uppercase;
+}
+div.home-configuracoes .botoes div.voltar{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: end;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    margin-top: 3%;
+    height: 15%;
+}
+div.home-configuracoes .botoes div.voltar button{
+    width: 220px;
+    height: 55px;
+    margin-bottom: 30px;
+    background: #0000002c;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    -webkit-backdrop-filter: blur(-10px);
+            backdrop-filter: blur(-10px);
+    /*cursor: pointer;*/
+    -webkit-transition: 0.1s;
+    -o-transition: 0.1s;
+    transition: 0.1s;
+}
+div.home-configuracoes .botoes div.voltar button:hover{
+    -webkit-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+    border-radius: 12px;
+    background: #00000059;
+}
+div.home-configuracoes .botoes div.voltar button:active{
+    -webkit-transition: 0ms;
+    -o-transition: 0ms;
+    transition: 0ms;
+    background: #000000b9;
+    font-size: 18px;
+}
+
+/**********************************************************GAME OVER************************************************************/
+
+
+div.home-gameOver{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: calc(100% - 30px);
+    height: calc(100% - 30px);
+    border: 15px solid #00000075;
+}
+div.home-gameOver img{
+    -webkit-animation: aparecerImagemGameOver 2s forwards;
+            animation: aparecerImagemGameOver 2s forwards;
+}
+div.home-gameOver button{
+    width: 220px;
+    height: 55px;
+    margin: 0 20px;
+    background: #0000002c;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 17px;
+    font-weight: bold;
+    font-size: 20px;
+    -webkit-backdrop-filter: blur(-10px);
+            backdrop-filter: blur(-10px);
+    /*cursor: pointer;*/
+    -webkit-transition: 0.1s;
+    -o-transition: 0.1s;
+    transition: 0.1s;
+    -webkit-animation: aparecerBotoesGameOver 2s forwards;
+            animation: aparecerBotoesGameOver 2s forwards;
+}
+div.home-gameOver button:hover{
+    border-radius: 20px;
+    background: #00000059;
+}
+div.home-gameOver button:active{
+    background: #0000008c;
+    -webkit-transition: 0ms;
+    -o-transition: 0ms;
+    transition: 0ms;
+}
+
+
+/**********************************************************VITORIA************************************************************/
+
+
+div.home-vitoria{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: calc(100% - 30px);
+    height: calc(100% - 30px);
+    border: 15px solid #00000075;
+}
+div.home-vitoria img{
+    -webkit-animation: aparecerImagemGameOver 2s forwards;
+            animation: aparecerImagemGameOver 2s forwards;
+}
+div.home-vitoria button{
+    width: 220px;
+    height: 55px;
+    margin: 0 20px;
+    background: #0000002c;
+    color: #fff;
+    border: 2px solid #fff;
+    border-radius: 17px;
+    font-weight: bold;
+    font-size: 20px;
+    -webkit-backdrop-filter: blur(-10px);
+            backdrop-filter: blur(-10px);
+    /*cursor: pointer;*/
+    -webkit-transition: 0.1s;
+    -o-transition: 0.1s;
+    transition: 0.1s;
+    -webkit-animation: aparecerBotoesGameOver 2s forwards;
+            animation: aparecerBotoesGameOver 2s forwards;
+}
+div.home-vitoria button:hover{
+    border-radius: 20px;
+    background: #00000059;
+}
+div.home-vitoria button:active{
+    background: #0000008c;
+    -webkit-transition: 0ms;
+    -o-transition: 0ms;
+    transition: 0ms;
+}

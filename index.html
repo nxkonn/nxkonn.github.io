@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Jogo Mata Mosquito | Menu</title>
+        <link rel="stylesheet" href="style2.css">
+        <script src="jogo.js"></script>
+    </head>
+    <body class="body-menu">
+        <!-- Div para a mensagem de bloqueio -->
+        <div id="block-screen" class="dnone">
+            <div class="block-message">
+                <h1>Ops! Este jogo não é compatível com dispositivos móveis.</h1>
+                <p>Por favor, acesse em um desktop com uma tela maior que 1000 pixels para jogar.</p>
+            </div>
+        </div>
+        <div id="home-menu" class="home-menu">
+            <div class="imagem">
+                <img src="imagens/game.png" alt="">
+            </div>
+            <div class="botoes">
+                <button onclick="inciarJogo()" type="button" style="margin-top: 60px;">Jogar</button>
+                <button onclick="configuracoes()" type="button">Configurações</button>
+                <button onclick="" type="button">Sobre</button>
+            </div>
+        </div>
+        <div id="home-configuracoes" class="dnone">
+            <div class="botoes">
+                <div class="dificuldade">
+                    <div class="label">
+                        <label for="dificuldadeRange">Dificuldade:</label>
+                    </div>
+                    <input oninput="atualizarDificuldade()" type="range" id="dificuldadeRange" min="1" max="3" value="1">
+                    <span id="dificuldade">Fácil</span>
+                </div>
+                <div class="tempo">
+                    <div class="label">
+                        <label for="tempoRange">Tempo:</label>
+                    </div>
+                    <input oninput="atualizarTempo()" type="range" id="tempoRange" min="10" max="120" step="10" value="1">
+                    <p><span id="tempoConfiguracao"></span> Segundos</p>
+                </div>
+                <div class="voltar">
+                    <button onclick="voltarMenu()" type="button">Voltar</button>
+                </div>
+            </div>
+        </div>
+        <script>
+            // Recupera a dificuldade do localStorage ao carregar a página
+            var dificuldadeSalva = localStorage.getItem("dificuldade");
+
+            if (dificuldadeSalva) {
+                // Se houver uma dificuldade salva, atualiza o controle deslizante e o texto
+                document.getElementById("dificuldadeRange").value = dificuldadeSalva;
+                atualizarDificuldade(); // Atualiza o texto da dificuldade
+            } else {
+                // Se não houver uma dificuldade salva, define o padrão (Fácil)
+                document.getElementById("dificuldadeRange").value = 1;
+                atualizarDificuldade();
+            }
+
+            // Recupera o tempo do localStorage ao carregar a página
+            var tempoSalvo = localStorage.getItem("tempo");
+
+            if (tempoSalvo) {
+                // Se houver um tempo salvo, atualiza o controle deslizante e o texto
+                document.getElementById("tempoRange").value = tempoSalvo;
+                document.getElementById("tempoConfiguracao").innerHTML = tempoSalvo;
+            } else {
+                // Se não houver um tempo salvo, define o padrão
+                document.getElementById("tempoRange").value = 10;
+                document.getElementById("tempoConfiguracao").innerHTML = 10;
+            }
+        </script>
+    </body>
+</html>
